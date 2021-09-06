@@ -1,0 +1,44 @@
+@media (max-width: 1000px){
+
+
+    body{
+        grid-template-columns: auto 418px 200px auto;
+        grid-gap: 0px;
+    }
+
+    .footer2{
+        position: static;
+        display: none;
+    }
+
+    .containt{
+        background-color: #fafafa;
+        box-shadow: none;
+       
+        /* text-align: center; */
+    }
+
+    .post_image img{
+        width: 618px;    
+    }
+
+    .add_comment{
+        display: none;
+    }  
+    
+    .story{
+        margin: 0px;
+    }
+
+}
+
+
+@media (max-width: 550px){
+    .search{
+        display: none;
+    }
+
+    
+
+}
+
